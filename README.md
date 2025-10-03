@@ -12,6 +12,18 @@ This repository is **only** for storing PDF writeups of Hack The Box machines as
 
 ---
 
+## Example tracker table
+
+Below is a simple Markdown table you can keep in the README (or export from `index.csv`) to quickly see your progress. It lists machine name, difficulty, and whether you have the user and root flags.
+
+| Date       | Machine  | Difficulty | User flag | Root flag |
+| ---------- | -------- | ---------- | --------- | --------- |
+| 2025-10-02 | Editor   | Easy       | ✅         | ✅         |
+
+You can update this table manually.
+
+---
+
 ## Recommended repository structure
 
 ```
@@ -28,6 +40,7 @@ This repository is **only** for storing PDF writeups of Hack The Box machines as
 ├─ index.csv                    # metadata and progress tracking (auto-updated)
 └─ tools/                       # optional scripts to update index or generate stats
 ```
+
 ---
 
 ## File naming convention
@@ -41,35 +54,15 @@ This keeps files chronologically ordered and easy to scan.
 
 ---
 
-## index.csv (recommended)
-
-Keep a small CSV at the repo root to track metadata for each PDF. Columns suggested:
-
-```
-date, machine, htb_link, status, difficulty, notes, pdf_path
-```
-
-Example row:
-
-```
-2025-09-01, forest, https://www.hackthebox.eu/machines/forest, solved, Easy, initial foothold via nginx misconfig, writeups/2025/solved/2025-09-01-forest.pdf
-```
-
-You can update this manually or create a small script in `tools/` to add entries when you add a PDF.
-
----
-
 ## How to add a new PDF
 
 1. Place the PDF in `writeups/<year>/<solved|in-progress>/` with the correct filename.
-2. Add or update a row in `index.csv` with metadata and the relative path.
-3. Commit with a clear message: `Add: 2025-09-01 - forest (solved)`.
+2. Commit with a clear message: `Add: 2025-09-01 - forest (solved)`.
 
 ---
 
 ## Progress tracking ideas
 
-* Use `index.csv` to compute a completion rate per year or overall (number solved / number started).
 * Add a `status` column with values: `in-progress`, `abandoned`, `solved`.
 * Optionally add `time_spent_minutes` to track how long each machine took.
 * Add a `tags` column for skills practiced (e.g., `web, priv-esc, ssh`).
@@ -84,3 +77,4 @@ You can update this manually or create a small script in `tools/` to add entries
 ---
 
 Happy hacking!
+
