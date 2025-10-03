@@ -18,7 +18,7 @@ Below is a simple Markdown table you can keep in the README (or export from `ind
 
 | Date       | Machine  | Difficulty | User flag | Root flag | Link |
 | ---------- | -------- | ---------- | --------- | --------- | ----- |
-| 2025-10-02 | Editor   | Easy       | ✅         | ✅         |  [HTB](https://www.hackthebox.eu/machines/forest](https://app.hackthebox.com/machines/Editor)   |
+| 2025-10-02 | Editor   | Easy       | ✅         | ✅         |  [HTB](https://app.hackthebox.com/machines/Editor)   |
 
 
 You can update this table manually.
