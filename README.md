@@ -16,9 +16,10 @@ This repository is **only** for storing PDF writeups of Hack The Box machines as
 
 Below is a simple Markdown table you can keep in the README (or export from `index.csv`) to quickly see your progress. It lists machine name, difficulty, and whether you have the user and root flags.
 
-| Date       | Machine  | Difficulty | User flag | Root flag |
-| ---------- | -------- | ---------- | --------- | --------- |
-| 2025-10-02 | Editor   | Easy       | ✅         | ✅         |
+| Date       | Machine  | Difficulty | User flag | Root flag | Link |
+| ---------- | -------- | ---------- | --------- | --------- | ----- |
+| 2025-10-02 | Editor   | Easy       | ✅         | ✅         |  [HTB](https://www.hackthebox.eu/machines/forest](https://app.hackthebox.com/machines/Editor)   |
+
 
 You can update this table manually.
 
