@@ -37,27 +37,25 @@ You can update this table manually.
 │  │  └─ in-progress/
 │  │     └─ 2025-09-20-wip-boxname.pdf
 │  └─ 2024/
-├─ index.csv                    # metadata and progress tracking (auto-updated)
-└─ tools/                       # optional scripts to update index or generate stats
 ```
 
 ---
 
 ## File naming convention
 
-Use `YYYY-MM-DD-machine-name.pdf` for solved machines and `YYYY-MM-DD-machine-name-wip.pdf` for in-progress notes. Example:
+Use `Machine-name-(difficulty).pdf` for solved machines and `Machine-name-wip-(difficulty).pdf` for in-progress notes. Example:
 
-* `2025-09-01-forest.pdf`
-* `2025-09-25-forest-wip.pdf`
+* `Editor-(Medium).pdf`
+* `Editor-wip-(Medium).pdf`
 
-This keeps files chronologically ordered and easy to scan.
+This keeps files ordered and easy to scan.
 
 ---
 
 ## How to add a new PDF
 
 1. Place the PDF in `writeups/<year>/<solved|in-progress>/` with the correct filename.
-2. Commit with a clear message: `Add: 2025-09-01 - forest (solved)`.
+2. Commit with a clear message: `Add: 2025-09-01 - Editor (solved)`.
 
 ---
 
